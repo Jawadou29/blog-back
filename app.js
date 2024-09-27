@@ -35,7 +35,8 @@ app.use(rateLimiting({
 
 // cors policy
 app.use(cors({
-  origin: "http://localhost:3000",
+  // origin: "http://localhost:3000",
+  origin: "https://jawadou29.github.io",
 }))
 
 // routes
